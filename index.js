@@ -18,6 +18,6 @@ function destructivelyRemoveFirstDriver(name) {
 }
 
 function appendDriver(name) {
-  newDrivers = drivers.pop("Broom");
+  newDrivers = drivers.push("Broom");
   return newDrivers;
 }
