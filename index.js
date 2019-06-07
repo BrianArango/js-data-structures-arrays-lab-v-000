@@ -23,6 +23,6 @@ function appendDriver(name) {
 }
 
 function prependDriver(name) {
-  newDrivers = ["Broom", ...drivers];
-  return newDrivers;
+  prepend = ["Broom", ...drivers];
+  return prepend;
 }
